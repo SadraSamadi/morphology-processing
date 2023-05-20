@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "untitled"
+version = "1.0.0"
+description = "The untitled project."
+authors = ["Sadra Samadi <sadra.smd@gmail.com>"]
+
+[tool.poetry.dependencies]
+matplotlib = "^3.7.1"
+numpy = "^1.24.3"
+opencv-python = "^4.7.0.72"
+pillow = "^9.5.0"
+pyaudio = "^0.2.13"
+python = "^3.11"
+requests = "^2.30.0"
+scikit-image = "^0.20.0"
+scikit-learn = "^1.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
